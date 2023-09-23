@@ -1,0 +1,20 @@
+.name{
+  
+    height: 500px;
+    width: 500px;
+   
+  
+}
+
+.container{
+    margin-left: 500px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 15px;
+    width:700px;
+   
+}
+
+.container2{
+    margin-top: 300px;
+}

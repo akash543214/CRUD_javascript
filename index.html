@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      
+    <h1 style="margin-left: 234px;">Add Names</h1>
+    <input class = "Input" style = "height: 35px; width: 400px;" type="text" id="myInput1" name="myInput" placeholder="Enter Name">
+    <button class="custom-button" onclick="addName()" style="margin-left: 100px; margin-top: 63px; background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">AddName</button>
+ 
+   <ol class="names">
+       
+   </ol>
+
+   <div class="container2">
+   <input type="number" id="tentacles" name="tentacles" placeholder="1"  min="1" max="100" />
+   <button class="custom-button" onclick="deleteName()" style="margin-top: 100px; margin-left: 20px; background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Delete Name</button>
+
+   <br>
+   <input type="number" id="tentacles2" name="tentacles2" placeholder="1"  min="1" max="100" />
+   <input class = "editInput" style = "height: 35px; width: 400px;" type="text" id="myInput2" name="editInput" placeholder="Enter Name">
+   
+   <button class="custom-button" onclick="editName()" style="margin-top: 100px; margin-left: 20px; background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Edit Name</button>
+</div>
+</div>
+   <script src="script.js"></script>
+</body>
+</html>
